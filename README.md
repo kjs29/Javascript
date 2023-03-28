@@ -10,7 +10,16 @@
 
 - What makes a great developer? 
   
-  - [link](https://www.quora.com/What-is-the-best-way-to-become-a-great-programmer/answer/Jinsung-Kim-27)
+  [My own answer](https://www.quora.com/What-is-the-best-way-to-become-a-great-programmer/answer/Jinsung-Kim-27)
+
+  2.6k upvotes : https://qr.ae/prqQEY
+
+  7.2k upvotes : https://qr.ae/prqQ0u
+
+  8.8k upvotes : https://qr.ae/prqQf9
+
+  1.7k upvotes : https://qr.ae/prqdRn
+
 
   - Create a scalable product.
 
