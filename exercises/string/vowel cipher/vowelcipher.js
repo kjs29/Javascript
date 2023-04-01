@@ -7,14 +7,17 @@ function vowelCipher(string) {
     
     const vowels = 'aeiou';
     let empty = '';
-    for (let i=0;i<string.length;i++){
+
+    for (let i = 0; i < string.length; i++){
+      
       if (vowels.includes(string[i])) {
         let nextVowel;
-        nextVowel = vowels[(vowels.indexOf(string[i])+1)%vowels.length]
-        empty+=nextVowel
+        nextVowel = vowels[(vowels.indexOf(string[i]) + 1) % vowels.length]
+        empty += nextVowel
       } else {
-        empty+=string[i]
+        empty += string[i]
       }
+      
     }
     return empty;
 }
