@@ -18,21 +18,26 @@ const allPrimesBelow = num => {
         }
     }
     return primes;
+    /*
+    let primes = [];
+    
+    return primes.filter(isPrime);
+    */
 }
 
 const nthPrime = n => {
     if (n <= 0) {
         return undefined;
     }
-    let counter = 0;
-    let i = 2;
+    let counter = 0; // count prime numbers
+    let numberToCheck = 2;
     while (counter < n) {
-        if (isPrime(i)) {
+        if (isPrime(numberToCheck)) {
             counter++;
         }
-        i++;
+        numberToCheck++;
     }
-    return i - 1;
+    return numberToCheck - 1;
 };
 
 // My solution
