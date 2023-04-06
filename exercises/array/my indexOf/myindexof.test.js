@@ -1,6 +1,6 @@
 const myIndexOf = require('./myindexof');
 
-test("", () => {
+test("['a', 'b', 'c', 'e'], 'c' should be 2", () => {
     expect(myIndexOf(['a', 'b', 'c', 'e'], 'c')).toBe(2)
 })
 
