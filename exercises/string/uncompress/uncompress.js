@@ -17,4 +17,23 @@ function uncompress(str) {
   return empty;
 }
 
+
+// const uncompress = str => {
+//   /*
+//   1. create an empty string
+//   2. iterate through str (with iterator with 2 increments)
+//       a. create variables 'currentChar' for current character, and 'currentNum' current number
+//       a. iterate through Number part, add to the empty string 'currentNum' times.
+//   */
+//   let empty = "";
+//   for (let i=0;i<str.length;i+=2){
+//       let currentChar = str[i]
+//       let currentNum = Number(str[i+1])
+//       for (let j=0;j<currentNum;j++){
+//           empty+=currentChar
+//       }
+//   }
+//   return empty;
+// }
+
 module.exports = uncompress;
