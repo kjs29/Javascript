@@ -18,14 +18,14 @@ sumToN(-8)  // returns null
 
   ```js
   function sumToN(num) {
-    if (num < 0) {
-      return null;
-    }
-    let sum = 0;
-    if (num === 1) {
-      return 1;
-    }
-    return sum + sumToN(num-1);
+      if (num < 0) {
+          return null;
+      }
+      let sum = 0;
+      if (num === 1) {
+          return 1;
+      }
+      return sum + sumToN(num-1);
   }
   ```  
 </details>
