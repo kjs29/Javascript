@@ -1,4 +1,4 @@
-Create a `dog` class that takes two argument `name` and `happiness`.
+Create a `dog` class that takes two two instance variables `name` and `happiness`.
 
 Create a static methods `walkDogs()` that takes two instance objects of the Dog class, increase each dog's happiness by 20.
 
