@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        function funcClick(){
+            let state = false;
+            let x = document.getElementById('mypara');
+            x.innerHTML = "Helo World!!!!! FROM JAVASCRIPT"
+            if (!state) {
+                x.innerHTML = 'This is a demo paragraph'
+            }
+            return state
+        }
+    </script>
+</head>
+<body>
+    <p id="mypara">This is a demo paragraph</p>
+    <button type="button" onclick="funcClick()">Click me!</button>
+</body>
+</html>
