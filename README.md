@@ -1,7 +1,5 @@
 # This repo consists of my notes about JavaScript
 
-# `Important!`
-
 - Differentiate between what I don't know from what I know.
 
   - What do I know?
