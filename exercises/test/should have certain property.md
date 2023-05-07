@@ -36,7 +36,7 @@ const expect = chai.expect;
 
 describe('Person Class', function() {
     it("should have property of 'name'", function() {
-        expect(Person).to.have.property('name');
+        expect(new Person()).to.have.property('name');
     })
 })
 ```
