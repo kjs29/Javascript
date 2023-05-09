@@ -23,4 +23,4 @@ So while it's true that the underlying bits in memory do not truly mutate,
 from a higher-level perspective, we can say that arrays are mutable because we can change their contents without creating a new array.
 
 
-## How does it work behind the scenes to understand where arrays start to be recognized to be mutable
+## How does it work behind the scenes to understand where arrays start to be recognized to be mutable. What level of depth do arrays start to be recognized to be mutable?

@@ -1,5 +1,3 @@
-
-
 In order to get this expected output,
 
 how can I write the function `bindToAnArg`?

@@ -1,4 +1,4 @@
-
+why does console.log change the value of an array?
 
 ```js
 let a = ['h','i']

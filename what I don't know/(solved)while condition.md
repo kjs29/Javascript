@@ -1,4 +1,4 @@
-# I am having a long time on how to convert while condition to while true
+# I take a long time on how to convert while condition to while true
 
 
 for example
@@ -22,4 +22,4 @@ while (counter <20){
 }
 ```
 
-I can maybe think of `while` as `if`.
+I can maybe think of `while` as `if` or `as long as`
