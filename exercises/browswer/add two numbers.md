@@ -4,6 +4,13 @@ It works incorrectly. The output in the example below is 12 (for default prompt 
 
 Why? Fix it. The result should be 3.
 
+```js
+let first = prompt('First number?', 1);
+let second = prompt('Second number?', 2);
+
+alert(first + second);
+```
+
 <details>
 
   <summary>answer</summary>
@@ -12,7 +19,7 @@ Why? Fix it. The result should be 3.
 let first = prompt('First number?', 1);
 let second = prompt('Second number?', 2);
 
-alert(Number(first)+Number(second));
+alert(+first + +second);
 ```
   
 
