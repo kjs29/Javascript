@@ -156,8 +156,78 @@ Let freedom ring from every hill and molehill in Mississippi. From every mountai
 
 And when this happens, when we allow freedom to ring, when we let it ring from every village and hamlet, from every state and every city, we will be able to speed up that day when all of God's children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual, "Free at last! Free at last! Thank God almighty, we're free at last!"`
 
+let onePassword = `About the job
+We all have important information we need to manage, and protecting it should be easy. Over 100,000 businesses and millions of people log in to 1Password to unlock smart, simple access to everything they care about. Our vision is to create a safer, simpler digital future for everyone, and our culture values simplicity, honesty and a human-centric approach to solving problems. Come help us unlock peace of mind so everyone can stay safer online.
+
+Team Summary
+
+The Internal Tools team builds custom tools to increase quality of life for other ‘Bits (that's what we call each other here at 1Password)! We focus on building apps, extensions, and tools that support other teams, and help them do their jobs faster, more efficiently, with higher quality and at larger scale. Now, you may be asking yourself, “self, why should I join Internal Tools?” That’s a great question! First and foremost, you’ll have an opportunity to work with the best customers in the world: other ‘Bits. Secondly, the breadth of your impact will be massive. You’ll get to work with customers from across the company to deliver software that increases their quality of life. Third, you’ll get exposure to a wide variety of teams, languages, software stacks, and systems because of the wide variety of tools we develop.
+
+Remote by design. 1Password has been remote-first since our inception in 2005, meaning that we’re no stranger to building digital community and culture. With our teams fully remote and located all around the world, we stay connected through company-wide events, coffee chats, fun Slack channels, and peer-to-peer recognition through Bonusly — just to name a few. Our remote environment means that you have the flexibility to make those midday workout classes, take your dog out for a walk when they need one, and run errands on your own schedule. As an intern, you can expect to set core hours with your manager, and then work when you’re at your best. We all thrive in different conditions, so we encourage you to make your workday work for you! 💙
+
+This is a remote opportunity within Canada. This position will be for 4 months - September 2023 to December 2023.
+
+Job Responsibilities
+
+Implement apps and tools that increase the quality of life for your colleagues
+Write features, fix bugs, and create improvements in existing tools
+Collaborate across teams and departments to discover their daily pain points
+
+What We're Looking For
+
+Confidence: A willingness to take on new challenges, and see them through to completion.
+Humility: You're not afraid to ask "stupid" questions and make mistakes (as long as you learn from them).
+Curiosity: You look for better ways of doing things, even if everyone seems happy with how they are.
+Teamwork: We work together, and succeed as a team!
+
+Bonus Points For
+
+Experience writing JavaScript/TypeScript, especially with React or in Node
+Experience writing browser extensions
+Experience writing command-line applications
+Experience doing user research or writing project plans
+
+Even if you don't tick all those boxes, we'd like to hear from you.
+
+The most important thing you can bring to this job is the drive to dive in, get the work done, and fix root causes instead of treating symptoms. We believe in continuous learning and support professional development on the job with a budget to back it up. If you bring a desire to do the right thing for our customers and a sense of ownership over the product you work on, we want to hear from you.
+
+This role will close on June 16, 2023
+
+What We Offer
+
+We believe in working hard, and resting hard. We’re always looking for new ways to support our team members, but here’s a glance at what we currently offer:
+
+> 🏝 Generous PTO policy - 2.08 days per month (1.5 work weeks per 4 month term)
+
+> 💖 Company-wide wellness days off scheduled throughout the year
+
+> 🌎 Employee-led DEI&B programs and ERGs
+
+> 🏠 Fully remote environment
+
+> 🏆 Peer-to-peer recognition through Bonusly
+
+> 💡 1Password University access and learning sessions
+
+> 🥳 Monthly internship events and socials
+
+You belong here.
+
+1Password is proud to be an equal opportunity employer. We are committed to fostering an inclusive, diverse and equitable workplace that is built on trust, support and respect. We welcome all individuals and do not discriminate on the basis of gender identity and expression, race, ethnicity, disability, sexual orientation, colour, religion, creed, gender, national origin, age, marital status, pregnancy, sex, citizenship, education, languages spoken or veteran status. Be yourself, find your people and share the things you love.
+
+Accommodation is available upon request at any point during our recruitment process. If you require an accommodation, please speak to your talent acquisition partner or email us at nextbit@agilebits.com and we’ll work to meet your needs.
+
+Candidate Privacy Notice
+
+When you apply for a position, refer a candidate, or are being considered for a role at AgileBits, Inc. (dba 1Password, 1Password, we, us, or our), your information is stored in Lever, in accordance with Lever's Service Privacy Notice . We use this information to evaluate your candidacy for the posted position. We also store this information, and may use it in relation to future positions to which you apply, or which we believe may be relevant to you given your background.
+
+Candidates may also optionally choose to self-identify their race/ethnicity, gender identity, sexual orientation, age, and disability. These answers will help us evaluate our diversity and belonging efforts. You do not have to answer these questions—your answers will not be linked to your name or job application, will not be visible to the hiring manager reviewing your application, and will in no way affect your job application. If you have any questions about the collection or use of this information, please contact [ dpo@1password.com ].
+
+When we have no ongoing legitimate business need to process your information, we will either delete or anonymize it. If you have any questions about how we use or process your information, or if you would like to ask to access, correct, or delete your information, please contact our privacy team at [ dpo@1password.com ] or through 1Password Support .`
+
 module.exports = { 
     dataAnalyst1, 
     dataAnalyst2, 
-    iHaveADream 
+    iHaveADream,
+    onePassword,
 };

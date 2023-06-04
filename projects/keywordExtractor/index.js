@@ -7,7 +7,8 @@ const {
 const { 
     dataAnalyst1, 
     dataAnalyst2, 
-    iHaveADream
+    iHaveADream,
+    onePassword
 } = require('./applications');
 
 /* 
@@ -20,10 +21,11 @@ const {
 */
 const keyWordExtractors = (str, trim, ...exclude) => {
     let excludedWords = [
-        '',     'Must',     'a',      'all',
-        'also', 'an',       'and',    'are',
-        'as',   'be',       'for',    'from',
-        'have', 'in',       'is',     'more',
+        '',     'Must',     'a',      'about',
+        'all',  'also',     'an',     'and',
+        'are',  'as',       'at',     'be',
+        'for',  'from',     'have',   'if',
+        'in',   'is',       'more',   'not',
         'of',   'on',       'one',    'or',
         'our',  'required', 'that',   'the',
         'this', 'to',       'we',     'where',
@@ -48,3 +50,4 @@ const keyWordExtractors = (str, trim, ...exclude) => {
 console.log(`Data Analyst 1: `, keyWordExtractors(dataAnalyst1, 6, 'role'));
 console.log(`Data Analyst 2: `, keyWordExtractors(dataAnalyst2, 8));
 console.log(`I have a dream speech: `, keyWordExtractors(iHaveADream, 10));
+console.log(`1 password application - internal tools: `, keyWordExtractors(onePassword, 10));
