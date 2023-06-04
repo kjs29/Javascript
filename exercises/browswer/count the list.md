@@ -15,6 +15,9 @@ We have a html file
 
 Write js file so that it adds a paragraph that says the total count of the fruit list.
 
+![image](https://github.com/kjs29/Javascript/assets/96529477/acfb7880-d58b-4b66-bcb9-77c7d031b120)
+
+
 <details>
 
 
