@@ -1,3 +1,4 @@
+# 7/2(o)
 
 Write a function `appleCounter(appleObj)` that takes in an object containing a 
 number of keys that have the word 'apple' contained within them. The `appleCounter`
@@ -12,13 +13,13 @@ Example:
 
 ```js
 let obj = { banana: "yay!" };
-appleCounter(obj); // => 0
+console.log(appleCounter(obj)); // => 0
 
 let obj1 = { crabapple: "yum!" };
-appleCounter(obj1); // => 1
+console.log(appleCounter(obj1)); // => 1
 
 let obj2 = { crabapple: "yum!", honeyapple: "super yum", banana: "yay" };
-appleCounter(obj2); // => 2
+console.log(appleCounter(obj2)); // => 2
 
 
 let obj3 = {
@@ -27,7 +28,8 @@ let obj3 = {
   banana: "yay",
   bigapple: "NYC"
 };
-appleCounter(obj3); // => 3
+
+console.log(appleCounter(obj3)); // => 3
 ```
 
 

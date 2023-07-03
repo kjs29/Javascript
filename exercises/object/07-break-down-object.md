@@ -10,10 +10,10 @@ Examples:
 
 ```js
 let object1 = {name: 'Rupert', age: 5, speak: 'Meow'};
-breakDownObj(object1); // => [ 'name', 'age', 'speak', 'Rupert', 5, 'Meow' ]
+console.log(breakDownObj(object1)); // => [ 'name', 'age', 'speak', 'Rupert', 5, 'Meow' ]
 
 let object2 = {location: 'NY', borough: 'Brooklyn'};
-breakDownObj(object2); // => [ 'location', 'borough', 'NY', 'Brooklyn' ]
+console.log(breakDownObj(object2)); // => [ 'location', 'borough', 'NY', 'Brooklyn' ]
 ```
 
 
@@ -26,6 +26,21 @@ function breakDownObj(obj) {
   let keysArray = Object.keys(obj);
   let valuesArray = Object.values(obj);
   return [...keysArray, ...valuesArray];
+}
+  ```
+</details>
+
+
+<details>
+
+  <summary>answer</summary>
+
+  ```js
+function breakDownObj(obj) {
+  let keysArray = Object.keys(obj);
+  let valuesArray = Object.values(obj);
+  
+  return keysArray.concat(valuesArray);
 }
   ```
 </details>

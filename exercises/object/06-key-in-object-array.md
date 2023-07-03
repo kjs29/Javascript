@@ -1,3 +1,4 @@
+# 7/2(o)
 
 Write a function `keyInObjectArray(objArray, keyString)` that takes in an array of 
 objects as the first parameter and a string as the second. The `keyInObjectArray` 
@@ -9,15 +10,15 @@ Examples:
 
 ```js
 let objArray = [
-  { name: "Rupert" },
-  { age: 42 },
-  { planet: "Earth", system: "Milky Way" }
+    { name: "Rupert" },
+    { age: 42 },
+    { planet: "Earth", system: "Milky Way" }
 ];
 
-keyInObjectArray(objArray, 'planet'); // => true
-keyInObjectArray(objArray, 'age'); // => true
-keyInObjectArray(objArray, 'food'); // => false
-keyInObjectArray(objArray, 'animal'); // => false
+console.log(keyInObjectArray(objArray, 'planet')); // => true
+console.log(keyInObjectArray(objArray, 'age')); // => true
+console.log(keyInObjectArray(objArray, 'food')); // => false
+console.log(keyInObjectArray(objArray, 'animal')); // => false
 ```
 
 
@@ -35,12 +36,31 @@ function keyInObjectArray(objArray, keyString) {
     b. if keyString is not in eachObj, false
   */
   for (let i=0;i<objArray.length;i++) {
-    let eachObj = objArray[i];
-    if (keyString in eachObj) {
-      return true;
+      let eachObj = objArray[i];
+      if (keyString in eachObj) {
+        return true;
     }
   }
   return false;
 }
   ```
+</details>
+
+
+<details>
+
+  <summary>answer</summary>
+
+```js
+
+function keyInObjectArray(arr, string) {
+    for (let obj of arr) {
+        if (Object.keys(obj).includes(string)) {
+            return true;
+        }
+    }
+    return false;
+}
+
+```
 </details>

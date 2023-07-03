@@ -3,7 +3,11 @@ Write a function called `valuesInObject(obj)` that takes in an object and return
 an array of all the values within that Object. 
 
 
-Do this once using using a `for...in` loop and once using `Object.values`.
+Do this by
+
+1. using using a `for...in` loop
+
+2. using `Object.values`.
 
 
 Examples:

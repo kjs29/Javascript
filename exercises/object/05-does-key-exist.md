@@ -1,3 +1,4 @@
+# 7/2(o)
 
 Write a function `doesKeyExist(obj, key)` that takes in an object and a
 key and returns true if the key is inside the object and false if the
@@ -15,15 +16,9 @@ doesKeyExist(obj1, 'name'); // => false
 
   <summary>answer</summary>
 
-  ```js
-
+```js
 function doesKeyExist(obj, key) {
-  if (key in obj) {
-    return true;
-  } else {
-    return false;
-  }
+    return (key in obj);
 }
-
-  ```
+```
 </details>

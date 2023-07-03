@@ -1,3 +1,4 @@
+# 7/2(o)
 
 Write a function `setKeyInObject(obj, string, value)` that takes in three 
 parameters. The first parameter is an object, the second parameter will be a 
@@ -8,10 +9,10 @@ Examples:
 
 ```js
 let obj = {}
-setKeyInObject(obj, "apple", "yum"); // => {apple: "yum"}
+console.log(setKeyInObject(obj, "apple", "yum")); // => {apple: "yum"}
 
 let obj1 = {str: "hello"}
-setKeyInObject(obj1, "num", 3); // => {str: "hello", num: 3}
+console.log(setKeyInObject(obj1, "num", 3)); // => {str: "hello", num: 3}
 ```
 
 
