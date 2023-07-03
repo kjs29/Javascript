@@ -1,7 +1,8 @@
+# 7/3 (o)
+Write a function `arrayConverter(array)` that will intake an array as an argument and 
+returns an object representing the count of each value in the array. 
 
-Write a function `arrayConverter(array)` that will intake an
-array as an argument and returns an object representing the count of each
-value in the array. **Hint:** don't forget you can check if a key is present
+**Hint:** don't forget you can check if a key is present
 in an object by using `obj[key] === undefined`.
 
 Examples:
@@ -17,7 +18,7 @@ console.log(arrayConverter(["apple", "banana", "potato", "banana"])); // => {app
 
   <summary>answer</summary>
 
-  ```js
+```js
 function arrayConverter(array) {
   let empty = {};
   array.forEach(each=>{
@@ -29,5 +30,28 @@ function arrayConverter(array) {
   })
   return empty;
 }
-  ```
+```
+</details>
+
+<details>
+
+  <summary>answer 7/3
+  
+  tc: O(n)
+  
+  sc: O(n)
+  </summary>
+
+```js
+function arrayConverter(arr) {
+    let hashmap = {};
+
+    for (let each of arr) {
+        hashmap[each] = (hashmap[each] || 0) + 1;
+    }
+
+    return hashmap;
+}
+```
+
 </details>

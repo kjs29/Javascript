@@ -1,3 +1,4 @@
+# 7/3(o)
 
 Write a function `stringConverter(string)` that will intake a
 string as an argument and returns an object representing the count of each
@@ -17,7 +18,7 @@ console.log(stringConverter("raccoon")); // => {r: 1, a: 1, c: 2, o: 2, n: 1}
 
   <summary>answer</summary>
 
-  ```js
+```js
 function stringConverter(string) {
   let stringArray = string.split("");
   let empty = {};
@@ -30,5 +31,29 @@ function stringConverter(string) {
   })
   return empty;
 }
-  ```
+```
+</details>
+
+
+<details>
+
+  <summary>answer 7/3
+  
+  tc: O(n)
+  
+  sc: O(n)
+  </summary>
+
+
+```js
+function stringConverter(s) {
+    let hashmap = {};
+    for (let each of s) {
+        hashmap[each] = (hashmap[each] || 0) + 1;
+    }
+    return hashmap;
+}
+```
+
+
 </details>

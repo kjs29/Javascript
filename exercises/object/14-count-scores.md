@@ -1,3 +1,4 @@
+# 7/2(o), 7/3(o)
 
 Write a function `countScores(people)` that takes in an array of score
 objects (people) as its input. A score object has two key-value pairs:
@@ -28,6 +29,7 @@ let peeps = [
   {name: "Anthony", score: 2},
   {name: "Winnie", score: 2}
 ];
+
 console.log(countScores(peeps)); //=> { Anthony: 4, Fred: 4, Winnie: 6 }
 ```
 
@@ -37,7 +39,7 @@ console.log(countScores(peeps)); //=> { Anthony: 4, Fred: 4, Winnie: 6 }
 
   <summary>answer</summary>
 
-  ```js
+```js
 function countScores(people) {
   /*
   1. create an empty object
@@ -61,7 +63,7 @@ function countScores(people) {
   return empty;
 }
 
-  ```
+```
 </details>
 
 
@@ -81,7 +83,27 @@ function countScores(arr) {
             newObj[eachObj['name']] = eachObj['score'];
         }
     }
-    return newObj
+    return newObj;
+}
+```
+</details>
+
+
+<details>
+
+  <summary>answer 7/3 - similar to 7/2 answer but more precise</summary>
+
+```js
+function countScores(arr) {
+    let hashmap = {};
+
+    arr.forEach(person => {
+        let eachName = person.name;
+        let eachScore = person.score;
+        hashmap[eachName] = (hashmap[eachName] || 0) + eachScore;
+    });
+    
+    return hashmap;
 }
 ```
 
