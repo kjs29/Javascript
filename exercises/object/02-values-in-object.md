@@ -16,21 +16,38 @@ valuesInObject(foods); // => ["tart", "sour", "sweet"]
 
 ```
 
+
 <details>
-
   <summary>answer</summary>
+  
 
-  ```js
-
+  <details>
+    <summary>for .. in</summary>
+    
+```js
 function valuesInObject(obj) {
-  // return Object.values(obj);
-  let empty =[];
-  for (key in obj) {
-    empty.push(obj[key]);
+      
+  let answer = [];
+  
+  for (let key in obj) {
+    answer.push(obj[key]);
   }
-  return empty;
+  
+  return answer;
 }
+```
+    
+  </details>
 
-
-  ```
+  <details>
+    <summary>Object.values</summary>
+    
+```js
+function valuesInObject(obj) {
+  
+  return Object.values(obj);
+}
+```
+    
+  </details>
 </details>
