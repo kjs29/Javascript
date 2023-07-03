@@ -16,3 +16,23 @@ const cats = [
 
 console.log(cutestCat(cats)); // { name: 'Fluffy', cuteness: 9 }
 ```
+
+<details>
+
+  <summary>answer</summary>
+
+```js
+function cutestCat(arr) {
+    
+    let cutestCat = -Infinity;
+
+    for (let eachCat of arr) {
+        if (eachCat.cuteness > cutestCat) {
+            cutestCat = eachCat;
+        }
+    }
+    return cutestCat;
+}
+```
+
+</details>

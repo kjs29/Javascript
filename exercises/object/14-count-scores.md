@@ -63,3 +63,26 @@ function countScores(people) {
 
   ```
 </details>
+
+
+<details>
+
+  <summary>answer 7/2</summary>
+
+```js
+function countScores(arr) {
+    let newObj = {};
+
+    for (let i=0;i<arr.length;i++) {
+        let eachObj = arr[i];
+        if (eachObj['name'] in newObj) {
+            newObj[eachObj['name']] += eachObj['score'];
+        } else {
+            newObj[eachObj['name']] = eachObj['score'];
+        }
+    }
+    return newObj
+}
+```
+
+</details>
